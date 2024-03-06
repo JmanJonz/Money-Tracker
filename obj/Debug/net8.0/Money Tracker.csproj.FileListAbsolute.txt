@@ -1,0 +1,14 @@
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\bin\Debug\net8.0\Money Tracker.exe
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\bin\Debug\net8.0\Money Tracker.deps.json
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\bin\Debug\net8.0\Money Tracker.runtimeconfig.json
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\bin\Debug\net8.0\Money Tracker.dll
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\bin\Debug\net8.0\Money Tracker.pdb
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\obj\Debug\net8.0\Money Tracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\obj\Debug\net8.0\Money Tracker.AssemblyInfoInputs.cache
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\obj\Debug\net8.0\Money Tracker.AssemblyInfo.cs
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\obj\Debug\net8.0\Money Tracker.csproj.CoreCompileInputs.cache
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\obj\Debug\net8.0\Money Tracker.dll
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\obj\Debug\net8.0\refint\Money Tracker.dll
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\obj\Debug\net8.0\Money Tracker.pdb
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\obj\Debug\net8.0\Money Tracker.genruntimeconfig.cache
+C:\Windows Drive\Local Repositories\School Repositories\Current Classes\Applied Programming\Money Tracker\obj\Debug\net8.0\ref\Money Tracker.dll
