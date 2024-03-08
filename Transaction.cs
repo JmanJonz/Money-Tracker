@@ -12,7 +12,10 @@ public class Transaction{
             TType = tType.ToLower();
             Category = category;
             Amount = amount;
-
+            // make sure that type is either expense or income
+                if(TType != "income" && TType != "expense"){
+                    throw new ArgumentException(nameof(TType), "Invalid transaction type. Must be Income or Expense");
+                }
             // validate that trans type is in accordance with it's sign
                 if(TType == "expense" && Amount >= 0){
                     throw new ArgumentOutOfRangeException(nameof(Amount), "Expense amount must be negative.");
