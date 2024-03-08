@@ -1,22 +1,31 @@
 public class Transaction{
     // state
-        public enum TransType {Income, Expense}
-        public decimal Amount {get; set;}
-        public string Description {get; set;}
-        public DateTime Date {get; set;}
+        public readonly string TType;
+        public readonly string Category;
+        public readonly decimal Amount;
+        public readonly DateTime TimeStamp;
 
-    // optional object constructor function
-        public Transaction(enum transType, decimal amount, string description, DateTime date){
-            TransType = transType;
+    // object constructor
+        public Transaction(string tType, string category, decimal amount){
+            // .Now is not a method it is the objects state
+                TimeStamp = DateTime.Now;
+            TType = tType.ToLower();
+            Category = category;
             Amount = amount;
-            Description = description;
-            Date = date;
+
+            // validate that trans type is in accordance with it's sign
+                if(TType == "expense" && Amount >= 0){
+                    throw new ArgumentOutOfRangeException(nameof(Amount), "Expense amount must be negative.");
+                }else if(TType == "income" && Amount <= 0){
+                    throw new ArgumentOutOfRangeException(nameof(Amount), "Income amount must be positive.");
+                }
         }
-    // transactions functionalities
-        public void LogDetails(){
-            Console.WriteLine($"Amount: {Amount:C}");
-            Console.WriteLine($"Description: {Description}");
-            Console.WriteLine($"Date: {Date:dd/MM/yyyy}");
-            Console.WriteLine($"Type: {Type}");
+
+    // object methods
+        public void GutCheck(){
+                        Console.WriteLine($"ttype is {TType}");
+                        Console.WriteLine($"category is {Category}");
+                        Console.WriteLine($"Amount is {Amount}");
+                        Console.WriteLine($"timestap is {TimeStamp}");
         }
 }
