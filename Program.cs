@@ -2,6 +2,8 @@
 
 // The program runs and menu is available until the user exits
     var userInput = "k";
+    var categoryList = new List<Category>;
+
     while(userInput != "d"){
         // This is basically the Transaction Tracker Class and can
         // have state like an array of category etc and it's own methods
@@ -18,7 +20,9 @@
         if(userInput == "a"){
 
         }else if(userInput == "b"){
-
+            console.Write("Enter A New Category Name: ");
+            var newCatName = console.ReadLine();
+            var newCatObj = new Category
         }else if(userInput == "c"){
 
         }
