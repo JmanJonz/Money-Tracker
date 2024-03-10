@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Money Tracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+848fdd1f0c905f521537ae8b226967d10dc08b7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebf949260940d15e44a0fa3da769d19f1650a6a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Money Tracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Money Tracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
